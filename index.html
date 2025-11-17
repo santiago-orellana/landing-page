@@ -2,19 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">        
         <!-- google font Roboto -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
         <title>Mi Primera Pagina</title>
     </head>
 
     <body>
         <header>
-            <div class="header">
-                <div>Header Logo</div>
-                <div class="links">
+            <div class="menu">
+                <div class="menu-logo">Header Logo</div>
+                <div class="menu-links">
                     <ul>
                         <li><a href="#">header link one</a></li>
                         <li><a href="#">header link two</a></li>
@@ -23,12 +25,24 @@
                 </div>
             </div>
             
-            <div class="title">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color es lower contrast</p>
-                <button>Sign up</button>
+            <div class="hero">
+                <div class="hero-section">
+                    <div>
+                        <h1 class="hero-title">This website is awesome</h1>
+                    </div>
+                    <div class="hero-description">
+                        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color es lower contrast</p>
+                    </div>
+                    <div class="hero-btn">
+                        <button class="btn btn-primary">Sign up</button>
+                    </div>
+                </div>
+                
+                <div class="hero-img">
+                    <img src="img/pexels-yankrukov-7792859.jpg" alt="grupo de trabajo">
+                </div> <!-- autor foto: Yan Krukau -->
             </div>
-            <div><img src="img/pajaros-volando.jpg" alt="pajaros volando al atardecer"></div> <!-- autor foto: Studio Lichtfang -->
+            
         </header>
         
         <div class="information">
