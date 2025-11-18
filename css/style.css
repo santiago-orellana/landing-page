@@ -135,3 +135,38 @@ header {
     justify-content: flex-end;
 }
 /* FIN OPINION SECTION */
+
+/* INICIO SIGN-UP SECTION */
+.sign-up {
+    padding: 100px;
+}
+.sign-up-section {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px;
+    color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sign-text > p {
+    margin: 0;
+}
+.btn-sign {
+    border: 1px solid white;
+}
+/* FIN SIGN-UP SECTION */
+
+/* INICIO FOOTER SECTION */
+footer {
+    background-color: #1F293F;
+    color: white;
+    padding: 25px 100px 25px 100px;
+}
+footer > p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+/* FIN FOOTER SECTION */
