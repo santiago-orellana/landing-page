@@ -114,6 +114,24 @@ header {
 
 /* INICIO OPINION SECTION */
 .opinion {
-    background-color: red;
+    background-color: #E5E7EB;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.opinion-section {
+    padding: 100px;
+}
+.opinion-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+.opinion-signature {
+    font-size: 20px;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: flex-end;
 }
 /* FIN OPINION SECTION */
